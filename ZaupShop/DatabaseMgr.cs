@@ -12,7 +12,6 @@ namespace ZaupShop
         // Token: 0x06000023 RID: 35 RVA: 0x00002A9C File Offset: 0x00000C9C
         internal DatabaseMgr()
         {
-            var cp = new CP1250();
             CheckSchema();
         }
 
